@@ -1639,5 +1639,137 @@
   {
     "trigger_sentence": "Which of the following protocols / ports are used for SNMP (Simple Network Management Protocol)?",
     "word": "UDP 161, UDP 162"
+  },
+  {
+    "trigger_sentence": "Which is the default port of IP-Winbox?",
+    "word": "TCP 8291"
+  },
+  {
+    "trigger_sentence": "What kind of packet is marked by connection-state=established matcher?",
+    "word": "Packet belongs to an existing connection, for example a reply packet or a packet which belongs to already replied connection"
+  },
+  {
+    "trigger_sentence": "The 'check-gateway' option is enabled for one route. Select all statements that are true:",
+    "word": "Gateway is checked every 10 seconds and after 2 failures, the gateway is considered unreacheable"
+  },
+  {
+    "trigger_sentence": "The 'check-gateway' option is enabled for one route. Select all statements that are true:",
+    "word": "In case of failure of the gateway, routes pointing to that gateway will become inactive"
+  },
+  {
+    "trigger_sentence": "Simple Queue number 0 defines 2M for upload and download for target IP 10.10.0.33. Simple Queue number 1 defines 4M for upload and download for target IP 10.10.0.33. The maximum bandwidth that the client 10.10.0.33 is be able to obtain is:",
+    "word": "2M upload/download"
+  },
+  {
+    "trigger_sentence": "When using routing option 'check-gateway=ping' what is the ICMP echo request interval (in seconds)?",
+    "word": "10s"
+  },
+  {
+    "trigger_sentence": "Which type of encryption could be used to establish a connection with a simple passkey without using a 802.1X authentication server?",
+    "word": "WPA PSK/WPA2 PSK/WPA3 PSK"
+  },
+  {
+    "trigger_sentence": "In the Route List, the identification DAb for a route stands for",
+    "word": "dynamic - active - bgp"
+  },
+  {
+    "trigger_sentence": "Which facility should be used, to ensure that clients with radio signal strength poorer than -90 dBm can not connect to interface wlan1 on a MikroTik AP?",
+    "word": "Access list"
+  },
+  {
+    "trigger_sentence": "What kind of users are listed in the \"/user\" menu?",
+    "word": "router users"
+  },
+  {
+    "trigger_sentence": "Possible actions of ip firewall filter are:",
+    "word": "accept"
+  },
+  {
+    "trigger_sentence": "Possible actions of ip firewall filter are:",
+    "word": "log"
+  },
+  {
+    "trigger_sentence": "Possible actions of ip firewall filter are:",
+    "word": "tarpit"
+  },
+  {
+    "trigger_sentence": "Which port does SSTP use by default?",
+    "word": "TCP 443"
+  },
+  {
+    "trigger_sentence": "Is it possible to limit how many clients are able to connect to an access point (1x 'ap bridge' instance)?",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Why is it useful to set a Radio Name on a wireless interface?",
+    "word": "To identify a RouterOS station in a list of connected clients"
+  },
+  {
+    "trigger_sentence": "Choose the correct PCQ argument values to allow 256kbps maximum download and upload for each client:",
+    "word": "kind=pcq pcq-rate=256000 pcq-classifier=dst-address"
+  },
+  {
+    "trigger_sentence": "Choose the correct PCQ argument values to allow 256kbps maximum download and upload for each client:",
+    "word": "kind=pcq pcq-rate=256000 pcq-classifier=src-address"
+  },
+  {
+    "trigger_sentence": "How long is level 1 (free) license valid?",
+    "word": "24 hours"
+  },
+  {
+    "trigger_sentence": "The highest queue priority is",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "What is necessary for PPPoE client configuration?",
+    "word": "Interface (on which PPPoE client is going to work)"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS 'system' package, you will also need the following software package:",
+    "word": "no extra package required"
+  },
+  {
+    "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
+    "word": "RADIUS shared secret"
+  },
+  {
+    "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
+    "word": "Hotspot User"
+  },
+  {
+    "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
+    "word": "PPP secrets"
+  },
+  {
+    "trigger_sentence": "On RouterOS v7, to block communications between wireless clients connected to the same access point interface, you should set",
+    "word": "client-isolation=yes"
+  },
+  {
+    "trigger_sentence": "Which of the following keystrokes enables safe mode in console:",
+    "word": "Ctrl+x"
+  },
+  {
+    "trigger_sentence": "It is required to set up a web server residing on a private subnet in a LAN to be accessible from the public Internet. Only the web server port should be accessible from the public. Which configuration steps must be met:",
+    "word": "Connection tracking must be enabled on the router"
+  },
+  {
+    "trigger_sentence": "It is required to set up a web server residing on a private subnet in a LAN to be accessible from the public Internet. Only the web server port should be accessible from the public. Which configuration steps must be met:",
+    "word": "In IP firewall NAT there should be a dst-nat rule between the public IP address of the web server and the private IP of the web server"
+  },
+  {
+    "trigger_sentence": "What does the firewall action \"Redirect\" do?",
+    "word": "Redirects a packet to a specified port on the router"
+  },
+  {
+    "trigger_sentence": "What does the firewall action \"Redirect\" do?",
+    "word": "Redirects a packet to the router"
+  },
+  {
+    "trigger_sentence": "What is the meaning of the status letter \"R\" on a PPPoE client interface in RouterOS Interfaces menu?",
+    "word": "Running"
+  },
+  {
+    "trigger_sentence": "Assuming a functional wireless interface is present and working, is it possible to create a wireless access point with a RouterOS level 5 licence?",
+    "word": "Yes"
   }
 ]
