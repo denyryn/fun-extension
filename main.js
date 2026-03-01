@@ -19,13 +19,6 @@ function createPopup(text, x, y) {
   setTimeout(() => popup.remove(), 10000);
 }
 
-const popupTarget = document.getElementsByClassName("highlight-popup")[0];
-if (popupTarget) {
-  popup.addEventListener("click", () => {
-    popup.remove();
-  });
-}
-
 document.addEventListener("mouseup", async (event) => {
   const selection = window.getSelection().toString().trim();
   if (!selection) return;
