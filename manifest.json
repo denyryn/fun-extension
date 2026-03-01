@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Portfoliooooo",
+  "version": "1.0",
+  "description": "Portfoliooooo.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

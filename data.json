@@ -1,0 +1,1643 @@
+[
+  {
+    "trigger_sentence": "A network ready device is directly connected to a MikroTik RouterBOARD 750 with IPv4 192.168.100.70/255.255.255.252. What is a valid IPv4 address for the RouterBOARD 750?",
+    "word": "192.168.100.69/255.255.255.252"
+  },
+  {
+    "trigger_sentence": "In MikroTik RouterOS, Layer-3 communication between 2 hosts can be achieved by using which address subnet?",
+    "word": "/30"
+  },
+  {
+    "trigger_sentence": "Which computers would be able to communicate directly (without any routers involved)?",
+    "word": "10.10.0.17/22 and 10.10.1.30/23"
+  },
+  {
+    "trigger_sentence": "How many IP addresses can one find in the header of an IP packet?",
+    "word": "2"
+  },
+  {
+    "trigger_sentence": "The network address is:",
+    "word": "The first address of the subnet"
+  },
+  {
+    "trigger_sentence": "What is the term for the hardware coded address found on an interface?",
+    "word": "MAC Address"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 23-bit (255.255.254.0) subnet?",
+    "word": "510"
+  },
+  {
+    "trigger_sentence": "Is ARP used in the IPv6 protocol?",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Which of the following protocols/ports are used for SNMP?",
+    "word": "UDP 161, UDP 162"
+  },
+  {
+    "trigger_sentence": "If ARP=reply-only is configured on an interface, what will this interface do?",
+    "word": "Accept all IP/MAC combinations listed in /ip arp as static entries"
+  },
+  {
+    "trigger_sentence": "Select which of the following are Public IP addresses:",
+    "word": "172.168.254.2, 11.63.72.21"
+  },
+  {
+    "trigger_sentence": "Which of the following IP addresses are publicly routable?",
+    "word": "11.3.10.4"
+  },
+  {
+    "trigger_sentence": "If ARP=reply-only is enabled on one router interface, router can add dynamic ARP entries for that interface.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "The basic unit of a physical network (OSI Layer 1) is the:",
+    "word": "Bit"
+  },
+  {
+    "trigger_sentence": "Which ones of the following are valid IP addresses?",
+    "word": "192.168.13.255, 10.10.14.0, 1.27.14.254"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 20-bit subnet?",
+    "word": "4094"
+  },
+  {
+    "trigger_sentence": "Which of the following is NOT a valid MAC Address?",
+    "word": "80:GF:AA:67:13:5D"
+  },
+  {
+    "trigger_sentence": "MAC layer by OSI model is also known as:",
+    "word": "Layer 2"
+  },
+  {
+    "trigger_sentence": "Select valid MAC-address:",
+    "word": "00:00:5E:80:EE:B0"
+  },
+  {
+    "trigger_sentence": "How many layers does Open Systems Interconnection model have?",
+    "word": "7"
+  },
+  {
+    "trigger_sentence": "Action=redirect is applied in which chain?",
+    "word": "chain=dstnat"
+  },
+  {
+    "trigger_sentence": "You have an 802.11b/g wireless card. What frequencies are available?",
+    "word": "2412MHz, 2422MHz"
+  },
+  {
+    "trigger_sentence": "Mark all correct statements about /export (rsc file).",
+    "word": "Exports full configuration of the router, Exports only part of the configuration (for example /ip firewall), Exports scripts from /system script"
+  },
+  {
+    "trigger_sentence": "What wireless card can be used to achieve 100 Mbps actual wireless throughput?",
+    "word": "802.11 a/n, 802.11 a/b/g/n"
+  },
+  {
+    "trigger_sentence": "It is possible to add user-defined chains in ip firewall mangle.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "Choose all valid host address ranges for subnet 15.242.55.62/27.",
+    "word": "15.242.55.33-15.242.55.62"
+  },
+  {
+    "trigger_sentence": "Action=redirect allows you to make:",
+    "word": "Transparent DNS Cache, Transparent HTTP Proxy"
+  },
+  {
+    "trigger_sentence": "Which is correct masquerade rule for 192.168.0.0/24 network with outgoing interface=ether1?",
+    "word": "/ip firewall nat add action=masquerade chain=srcnat out-interface=ether1"
+  },
+  {
+    "trigger_sentence": "What letters appear next to a route automatically created when adding a valid address to an active interface?",
+    "word": "D, A, C"
+  },
+  {
+    "trigger_sentence": "Mark all features that are compatible with Nstreme.",
+    "word": "Encryption, WDS between a device in ap-bridge mode with a device in station-wds mode"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS if a PCI Ethernet card is not recognized due to driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, which additional RouterOS package is required?",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Which are necessary sections in /queue simple to set bandwidth limitation?",
+    "word": "target-address, max-limit"
+  },
+  {
+    "trigger_sentence": "What protocol is used for Ping and Trace route?",
+    "word": "ICMP – ping, UDP – trace route"
+  },
+  {
+    "trigger_sentence": "From which locations can you obtain Winbox?",
+    "word": "Router’s webpage, mikrotik.com"
+  },
+  {
+    "trigger_sentence": "Select all IP/mask pairs that allow IP connections between two hosts on a broadcast LAN.",
+    "word": "A: 10.1.2.192/24 and B: 10.1.2.129/26, A: 10.2.1.0/23 and B: 10.2.0.1/22"
+  },
+  {
+    "trigger_sentence": "Why is it useful to set a Radio Name on the radio interface?",
+    "word": "To identify a station in a list of connected clients, To identify a station in Neighbor discovery"
+  },
+  {
+    "trigger_sentence": "What kind of users are listed in the Secrets window of the PPP menu?",
+    "word": "pptp users, l2tp users, pppoe users, ovpn users"
+  },
+  {
+    "trigger_sentence": "Can Router A use /ppp secret accounts from Router B to authenticate PPPoE customers?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "MikroTik RouterOS DHCP client can receive which options?",
+    "word": "IP Gateway, IP Address and Subnet"
+  },
+  {
+    "trigger_sentence": "If you need to make sure that one computer in your HotSpot network can access the Internet without HotSpot authentication, which menu allows you to do this?",
+    "word": "IP bindings"
+  },
+  {
+    "trigger_sentence": "How many different priorities can be selected for queues in MikroTik RouterOS?",
+    "word": "8"
+  },
+  {
+    "trigger_sentence": "Which default route will be active when distance=10 via 1.1.1.1 and distance=5 via 2.2.2.2?",
+    "word": "Route via gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "How long is level 1 (demo) license valid?",
+    "word": "24 hours"
+  },
+  {
+    "trigger_sentence": "Is ARP used in the IPv6 protocol?",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "In MikroTik RouterOS, Layer-3 communication between 2 hosts can be achieved by using which address subnet?",
+    "word": "/30"
+  },
+  {
+    "trigger_sentence": "If a PC Ethernet card is replaced and static ARP was configured on gateway, what should be done?",
+    "word": "Old static ARP entry on gateway has to be updated for the new card"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 20-bit subnet?",
+    "word": "4094"
+  },
+  {
+    "trigger_sentence": "What is the default TTL (time to live) before an IP packet is discarded?",
+    "word": "64"
+  },
+  {
+    "trigger_sentence": "The network address is:",
+    "word": "The first address of the subnet"
+  },
+  {
+    "trigger_sentence": "Which ones of the following are valid IP addresses?",
+    "word": "192.168.13.255, 1.27.14.254, 10.10.14.0"
+  },
+  {
+    "trigger_sentence": "Which of the following is NOT a valid MAC Address?",
+    "word": "80:GF:AA:67:13:5D"
+  },
+  {
+    "trigger_sentence": "If ARP=reply-only is configured on an interface, what will this interface do?",
+    "word": "Accept all IP/MAC combinations listed in /ip arp as static entries"
+  },
+  {
+    "trigger_sentence": "What is the term for the hardware coded address found on an interface?",
+    "word": "MAC Address"
+  },
+  {
+    "trigger_sentence": "Which of the following IP addresses are publicly routable?",
+    "word": "11.3.10.4"
+  },
+  {
+    "trigger_sentence": "What protocol does ping use?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "MAC layer by OSI model is also known as:",
+    "word": "Layer 2"
+  },
+  {
+    "trigger_sentence": "How many layers does Open Systems Interconnection model have?",
+    "word": "7"
+  },
+  {
+    "trigger_sentence": "How many IP addresses can one find in the header of an IP packet?",
+    "word": "2"
+  },
+  {
+    "trigger_sentence": "The basic unit of a physical network (OSI Layer 1) is the:",
+    "word": "Bit"
+  },
+  {
+    "trigger_sentence": "You have a router with configuration (Public IP 202.168.125.45/24, Local IP 192.168.2.1/24). Mark the correct configuration on client PC to access the Internet.",
+    "word": "IP:192.168.2.115/24 gateway:192.168.2.1"
+  },
+  {
+    "trigger_sentence": "On the advanced menu of the wireless setup there is a parameter called 'Area', it works directly with:",
+    "word": "None of these"
+  },
+  {
+    "trigger_sentence": "What menus should be used to allow certain websites to be accessed from behind a hotspot interface, without client authentication",
+    "word": "ip hotspot walled-garden"
+  },
+  {
+    "trigger_sentence": "You want to use PCQ and allow 256k maximum download and upload for each client. Choose correct argument values for the required queue.",
+    "word": "kind=pcq pcq-limit=256000 pcq-classifier=dst-address"
+  },
+  {
+    "trigger_sentence": "Which of the following is true for connection tracking",
+    "word": "Connection tracking must be enable for NAT’ed network"
+  },
+  {
+    "trigger_sentence": "Which of these are possible solutions to bridge two networks over a wireless link:",
+    "word": "One device in AP mode, another one in station-pseudobridge"
+  },
+  {
+    "trigger_sentence": "When backing up your router by using the 'Export' command, the following happens:",
+    "word": "The Export file can be edited with a standard text editor after its creation"
+  },
+  {
+    "trigger_sentence": "You need to reboot a RouterBoard after importing a previously exported rsc file to activate the new configuration.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "It is impossible to disable user 'admin' at the menu '/user'",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "If a packet comes to a router and starts a new, previously unseen connection, which connection state would be applied to it?",
+    "word": "new"
+  },
+  {
+    "trigger_sentence": "Card Nr2 able to connect to Card Nr1 with different frequency and security profile settings?",
+    "word": "No, because of the different frequencies"
+  },
+  {
+    "trigger_sentence": "Which menu allows one computer in HotSpot network to access Internet without HotSpot authentication?",
+    "word": "IP bindings"
+  },
+  {
+    "trigger_sentence": "On R2, prevent all access to server 192.168.1.10 from LAN1 devices. Which rule is needed?",
+    "word": "/ip firewall filter add chain=forward src-address=192.168.0.0/24 dst-address=192.168.1.10 action=drop"
+  },
+  {
+    "trigger_sentence": "What is the default protocol/port of secure winbox?",
+    "word": "TCP/8291"
+  },
+  {
+    "trigger_sentence": "Mark the queue types that are available in RouterOS",
+    "word": "SFQ, FIFO, PCQ, RED"
+  },
+  {
+    "trigger_sentence": "Valid IPv4 address for RouterBOARD 750 if device is 192.168.100.70/30",
+    "word": "192.168.100.69/255.255.255.252"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 23-bit (255.255.254.0) subnet?",
+    "word": "510"
+  },
+  { "trigger_sentence": "Is ARP used in the IPv6 protocol?", "word": "False" },
+  {
+    "trigger_sentence": "Which protocols/ports are used for SNMP?",
+    "word": "UDP 161, UDP 162"
+  },
+  {
+    "trigger_sentence": "Select which of the following are Public IP addresses",
+    "word": "172.168.254.2, 11.63.72.21"
+  },
+  {
+    "trigger_sentence": "If ARP=reply-only is enabled on one router interface, router can add dynamic ARP entries for the particular interface.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "MAC layer by OSI model is also known as",
+    "word": "Layer 2"
+  },
+  {
+    "trigger_sentence": "Select valid MAC-address",
+    "word": "00:00:5E:80:EE:B0"
+  },
+  {
+    "trigger_sentence": "Which computers would be able to communicate directly (without any routers involved)",
+    "word": "10.5.5.1/24 and 10.5.5.100/25"
+  },
+  {
+    "trigger_sentence": "What kind of users are listed in the Secrets window of the PPP menu?",
+    "word": "l2tp users, pptp users, pppoe users"
+  },
+  {
+    "trigger_sentence": "What configuration is added by /ip hotspot setup command?",
+    "word": "/ip hotspot user, /ip dhcp-server"
+  },
+  {
+    "trigger_sentence": "Using wireless connect-list it’s possible to prioritize connection to one Access Point over another Access Point by changing the order of the entries.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "If ARP=reply-only is configured on an interface, what will this interface do",
+    "word": "Accept all IP/MAC combinations listed in /ip arp as static entries"
+  },
+  {
+    "trigger_sentence": "Router A and B are both running as PPPoE servers on different broadcast domains of your network. It is possible to set Router A to use /ppp secret accounts from Router B to authenticate PPPoE customers.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and you suspect it is a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "What can be used as target-address in the simple queue?",
+    "word": "client’s address, address list name"
+  },
+  {
+    "trigger_sentence": "Which is the default port of IP-Winbox?",
+    "word": "TCP 8291"
+  },
+  {
+    "trigger_sentence": "MikroTik RouterOS is sending logs to an external syslog server. Which protocol and port is used by RouterOS for sending logs (by default)?",
+    "word": "UDP 514"
+  },
+  {
+    "trigger_sentence": "Which route will be used to reach host 192.168.1.55?",
+    "word": "Route via gateway 1.1.1.1"
+  },
+  {
+    "trigger_sentence": "In which situations can Netinstall NOT be used to install a RouterBOARD?",
+    "word": "The router is connected only to a wireless network"
+  },
+  {
+    "trigger_sentence": "To use masquerade, you need to specify",
+    "word": "action=masquerade, out-interface, chain=src-nat"
+  },
+  {
+    "trigger_sentence": "Please select valid scan-list values in interface wireless configuration:",
+    "word": "5560,5620-5700 and default,5560,5600,5660-5700"
+  },
+  {
+    "trigger_sentence": "When adding a static route, you must always ensure that you add both the gateway and the interface.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "You would like to allow multiple logins with one user name on a HotSpot server. How should this be configured?",
+    "word": "Set Shared Users option at /ip hotspot user profile"
+  },
+  {
+    "trigger_sentence": "In which order are the entries in Access List and Connect List processed?",
+    "word": "In sequence order"
+  },
+  {
+    "trigger_sentence": "What protocol does ping use?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "Is it possible for a client to get an IP address but no gateway after a successful DHCP request?",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "Client sends ping to router with given firewall configuration. What will the router do?",
+    "word": "Router will log it with prefix: JUMP-ICMP-DENY and then drop the packet at ICMP chain drop rule"
+  },
+  {
+    "trigger_sentence": "What does the dst-nat rule with dst-port=3389 to-address=192.168.1.2 to-ports=81 do?",
+    "word": "Forwards any TCP traffic incoming through ether1 port 3389 to port 81 of internal host 192.168.1.2"
+  },
+  {
+    "trigger_sentence": "While troubleshooting, you can ping the gateway but cannot browse the Internet, while Skype works. What is the most likely issue?",
+    "word": "DNS is not available"
+  },
+  {
+    "trigger_sentence": "What is marked by connection-state=established matcher?",
+    "word": "Packet belongs to an existing connection"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, in addition to the RouterOS system package, you will also need:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Which wireless-protocol settings should be enabled on client to auto-detect 802.11a or Nv2?",
+    "word": "nv2-nstreme-802.11 and any"
+  },
+  {
+    "trigger_sentence": "What does this simple queue do for host 192.168.1.10 with 1M limit (based on typical configuration)?",
+    "word": "Queue limits host 192.168.1.10 upload data rate to one megabit per second"
+  },
+  {
+    "trigger_sentence": "What can you do with Netinstall?",
+    "word": "Reinstall RouterOS"
+  },
+  {
+    "trigger_sentence": "In order for Router 1 to see all of the networks the following commands could be used (choose all answers that could work)",
+    "word": "/ip route add dst-address=0.0.0.0/0 gateway=10.10.0.2"
+  },
+  {
+    "trigger_sentence": "Configuring HotSpot is possible on MikroTikRouterOS only with a wireless interface.",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "What menus should be used to allow certain websites to be accessed from behind a hotspot interface, without client authentication",
+    "word": "ip hotspot walled-garden"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Netinstall can be used to",
+    "word": "Install different software version (upgrade or downgrade)"
+  },
+  {
+    "trigger_sentence": "In which order are the entries in Access List and Connect List processed?",
+    "word": "In sequence order"
+  },
+  {
+    "trigger_sentence": "In Winbox, Hide Passwords unchecked shows passwords for the following",
+    "word": "PPP secrets"
+  },
+  {
+    "trigger_sentence": "Which options should be used when you want to prevent access from one specific address to your router web interface?",
+    "word": "Firewall Filter Chain Input"
+  },
+  {
+    "trigger_sentence": "Which of the following would prevent unknown clients from connecting to your AP? Choose the BEST answer.",
+    "word": "Uncheck \"Default Authenticate\" in the wireless card configuration, and add each known client's MAC address to your access-list configuration ensuring that you enable \"authenticate\" in the entry"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and you suspect it is a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "Mark the queue types that are available in RouterOS",
+    "word": "PCQ – Per Connection Queuing"
+  },
+  {
+    "trigger_sentence": "Check the allowed input formats for wireless scan-list.",
+    "word": "5500-5700"
+  },
+  {
+    "trigger_sentence": "Choose all valid hosts address range for subnet 15.242.55.62/27",
+    "word": "15.242.55.33-15.242.55.62"
+  },
+  {
+    "trigger_sentence": "After putting this rule: /ipfirewall add chain=input action=drop, you will still be able to access the Router using the mac-address.",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "You need to reboot a RouterBoard after importing a previously exported rsc file to activate the new configuration.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "What is necessary for PPPoE client configuration?",
+    "word": "Interface (on which PPPoE client is going to work)"
+  },
+  {
+    "trigger_sentence": "In order to use dynamic keys in your security profile for an AP, you MUST set up the dhcp server to provide the dynamic keys.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Mark the correct configuration on client PC to access to the Internet",
+    "word": "IP:192.168.2.115/24 gateway: 192.168.2.1"
+  },
+  {
+    "trigger_sentence": "Router OS can set vlan-id value from - to :",
+    "word": "1-4095"
+  },
+  {
+    "trigger_sentence": "Collisions are possible in full-duplex Ethernet networks",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Where can you monitor (see addresses and ports) real-time connections which are processed by the router?",
+    "word": "Firewall Connection Tracking"
+  },
+  {
+    "trigger_sentence": "Action=redirect applies to",
+    "word": "DST-NAT rules"
+  },
+  {
+    "trigger_sentence": "What does this simple queue do (check the image)?",
+    "word": "Queue limits host 192.168.1.10 upload data rate to one megabit per second."
+  },
+  {
+    "trigger_sentence": "Is it possible that the same IP address is included in multiple address lists and still be used by these multiple address lists?",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Proxy functionality question",
+    "word": "Can deny access to a specific domains or servers, but not specific web pages"
+  },
+  {
+    "trigger_sentence": "What can you do with Netinstall?",
+    "word": "Reinstall RouterOS"
+  },
+  {
+    "trigger_sentence": "In order for Router 1 to see all of the networks the following commands could be used",
+    "word": "/ip route add dst-address=0.0.0.0/0 gateway=10.10.0.2"
+  },
+  {
+    "trigger_sentence": "Configuring HotSpot is possible on MikroTikRouterOS only with a wireless interface.",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "What menus should be used to allow certain websites to be accessed from behind a hotspot interface, without client authentication",
+    "word": "ip hotspot walled-garden"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Netinstall can be used to",
+    "word": "Install different software version (upgrade or downgrade)"
+  },
+  {
+    "trigger_sentence": "In which order are the entries in Access List and Connect List processed?",
+    "word": "In sequence order"
+  },
+  {
+    "trigger_sentence": "In Winbox, Hide Passwords unchecked shows passwords for the following",
+    "word": "PPP secrets"
+  },
+  {
+    "trigger_sentence": "Which options should be used when you want to prevent access from one specific address to your router web interface?",
+    "word": "Firewall Filter Chain Input"
+  },
+  {
+    "trigger_sentence": "Which of the following would prevent unknown clients from connecting to your AP?",
+    "word": "Uncheck \"Default Authenticate\" in the wireless card configuration, and add each known client's MAC address to your access-list configuration ensuring that you enable \"authenticate\" in the entry"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and you suspect it is a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "Mark the queue types that are available in RouterOS",
+    "word": "SFQ – Stochastic Fairness Queuing"
+  },
+  {
+    "trigger_sentence": "Check the allowed input formats for wireless scan-list.",
+    "word": "5500-5700"
+  },
+  {
+    "trigger_sentence": "Choose all valid hosts address range for subnet 15.242.55.62/27",
+    "word": "15.242.55.33-15.242.55.62"
+  },
+  {
+    "trigger_sentence": "After putting this rule: /ip firewall add chain=input action=drop, you will still be able to access the Router using the mac-address.",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "You need to reboot a RouterBoard after importing a previously exported rsc file to activate the new configuration.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "What is necessary for PPPoE client configuration?",
+    "word": "Interface (on which PPPoE client is going to work)"
+  },
+  {
+    "trigger_sentence": "In order to use dynamic keys in your security profile for an AP, you MUST set up the dhcp server to provide the dynamic keys.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Mark the correct configuration on client PC to access to the Internet",
+    "word": "IP:192.168.2.115/24 gateway: 192.168.2.1"
+  },
+  {
+    "trigger_sentence": "Router OS can set vlan-id value from - to :",
+    "word": "1-4095"
+  },
+  {
+    "trigger_sentence": "Collisions are possible in full-duplex Ethernet networks",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Where can you monitor real-time connections which are processed by the router?",
+    "word": "Firewall Connection Tracking"
+  },
+  {
+    "trigger_sentence": "Action=redirect applies to",
+    "word": "DST-NAT rules"
+  },
+  {
+    "trigger_sentence": "What does this simple queue do?",
+    "word": "Queue limits host 192.168.1.10 upload data rate to one megabit per second."
+  },
+  {
+    "trigger_sentence": "Is it possible that the same IP address is included in multiple address lists and still be used by these multiple address lists?",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Can deny access to a specific domains or servers, but not specific web pages",
+    "word": "Web Proxy Access Control"
+  },
+  {
+    "trigger_sentence": "Choose correct statements for MikroTik proxy.",
+    "word": "Destination NAT rule is required to utilize transparent proxy facility"
+  },
+  {
+    "trigger_sentence": "Collisions are possible in full-duplex Ethernet networks.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Which of the following is NOT a valid MAC Address?",
+    "word": "80:GF:AA:67:13:5D"
+  },
+  {
+    "trigger_sentence": "The default value of 'target-scope' for a static route is:",
+    "word": "10"
+  },
+  {
+    "trigger_sentence": "Which firewall chain would be used to block a client's MSN traffic on a router?",
+    "word": "forward"
+  },
+  {
+    "trigger_sentence": "Please select valid scan-list values in interface wireless configuration:",
+    "word": "default,5560,5600,5660-5700"
+  },
+  {
+    "trigger_sentence": "HotSpot can create dynamic queues on user login to do the speed limitations.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "You start a scan for wireless networks on your access point. What will happen?",
+    "word": "All connected clients will disconnect"
+  },
+  {
+    "trigger_sentence": "What kind of users are listed in the \"/user\" menu?",
+    "word": "router users"
+  },
+  {
+    "trigger_sentence": "Which is correct masquerade rule for 192.168.0.0/24 network on the router with outgoing interface=ether1?",
+    "word": "/ip firewall nat add action=masquerade chain=srcnat out-interface=ether1"
+  },
+  {
+    "trigger_sentence": "Which firewall chain should you use to filter ICMP packets from the router itself?",
+    "word": "output"
+  },
+  {
+    "trigger_sentence": "Which software version can be installed onto the following RouterBoard types?",
+    "word": "routeros-mipsbe-x.xx.npk on a RB433"
+  },
+  {
+    "trigger_sentence": "The highest queue priority is",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "Client sends ping to router with given firewall configuration. What will the router do?",
+    "word": "Router will log it with prefix: JUMP-ICMP-DENY"
+  },
+  {
+    "trigger_sentence": "MikroTik proxy features are:",
+    "word": "HTTP caching"
+  },
+  {
+    "trigger_sentence": "What does this simple queue do?",
+    "word": "Queue limits host 192.168.1.10 download data rate to one megabit per second."
+  },
+  {
+    "trigger_sentence": "Is it possible to use Nstreme protocol if a VirtualAP is configured on the same wireless interface?",
+    "word": "No, Nstreme can not be used on wireless interface if a VirtualAP is on it."
+  },
+  {
+    "trigger_sentence": "/store allows you to save to external disk",
+    "word": "user-manager data"
+  },
+  {
+    "trigger_sentence": "Router needs to send packets to 192.168.3.240. Which gateway will be used?",
+    "word": "192.168.0.1"
+  },
+  {
+    "trigger_sentence": "What is the meaning of letter \"R\" on an active session in the menu PPP Active Connections?",
+    "word": "Radius"
+  },
+  {
+    "trigger_sentence": "A station can connect to AP if they both use different country regulation settings, but the frequency chosen is allowed in both countries.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "Hotspot ip-binding is used to allow access to remote host specifying the IP address of the remote host.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "To create a DHCP service for all bridged wireless and ethernet clients you must configure DHCP server on:",
+    "word": "only on bridge interface"
+  },
+  {
+    "trigger_sentence": "EoIP is:",
+    "word": "Layer-2 tunnel, that can be bridged"
+  },
+  {
+    "trigger_sentence": "log messages are stored on disk by default",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Router OS can set vlan-id value from - to :",
+    "word": "1-4095"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and you suspect it is a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "Which of the following is true for connection tracking",
+    "word": "Connection tracking must be enable for NAT'ed network"
+  },
+  {
+    "trigger_sentence": "What letters appear next to a route, which is automatically created by RouterOS when user adds a valid address to an active interface?",
+    "word": "C"
+  },
+  {
+    "trigger_sentence": "Which is the default port of IP-Winbox?",
+    "word": "TCP 8291"
+  },
+  {
+    "trigger_sentence": "You want to use PCQ and allow 256k maximum download and upload for each client. Choose correct argument values for the required queue.",
+    "word": "kind=pcq pcq-limit=256000 pcq-classifier=dst-address"
+  },
+  {
+    "trigger_sentence": "To limit wireless access for your HotSpot users",
+    "word": "Create MAC Address restriction in the Wireless Access List"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "To avoid looping on this network, you need to:",
+    "word": "Enable RSTP on AP1, AP2 and AP3"
+  },
+  {
+    "trigger_sentence": "To make the masquerading of the network 192.168.0.0/24, configured on the interface Ether1, you should add rule",
+    "word": "/ip firewall nat add chain=srcnat out-interface=ether1 src-address=192.168.0.0/24 action=masquerade"
+  },
+  {
+    "trigger_sentence": "On the advanced menu of the wireless setup there is a parameter called \"Area\", it works directly with:",
+    "word": "Access List"
+  },
+  {
+    "trigger_sentence": "The basic unit of a physical network (OSI Layer 1) is the:",
+    "word": "Bit"
+  },
+  {
+    "trigger_sentence": "It is impossible to disable user \"admin\" at the menu \"/user\"",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "HotSpot is required on the interfaces ether2, ether3, wlan1 (in ap-bridge mode). These interfaces are bridged in the bridge1 interface. Which interface should the HotSpot server be configured on?",
+    "word": "On bridge1 interface"
+  },
+  {
+    "trigger_sentence": "The highest queue priority is",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "What is necessary for PPPoE client configuration?",
+    "word": "Interface (on which PPPoE client is going to work)"
+  },
+  {
+    "trigger_sentence": "To be able to do NAT the connection tracking does not need to be enabled.",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Check the allowed input formats for wireless scan-list.",
+    "word": "5500-5700"
+  },
+  {
+    "trigger_sentence": "To connect your MikroTik router to a wireless access point, you have to:",
+    "word": "Use the same SSID as on accesspoint"
+  },
+  {
+    "trigger_sentence": "Which default route will be active?",
+    "word": "Route via gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "An IP address pool can contain addresses from more than one subnet.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "Is it possible to use the serial port of MikroTik to communicate with an external device connected by null-modem cable?",
+    "word": "Yes, if port is not being used"
+  },
+  {
+    "trigger_sentence": "It is required to make a web server on a private LAN visible on the Public Internet. Only the web server port should be visible to the public.",
+    "word": "A route between the NAT Router and the webserver must exist; in ip firewall NAT there should be a dst-nat between the public ip of the router and the private ip of the webserver; Connection Tracking must be enabled on NAT router"
+  },
+  {
+    "trigger_sentence": "Collisions are possible in full-duplex Ethernet networks",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Is it possible to have PPTP Client and PPTP server on one MikroTik router at the same time?",
+    "word": "Yes/ True"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "What could be monitored by Torch?",
+    "word": "Dst. Address, Dst. Port, Src. Address, Vlan ID, Protocol"
+  },
+  {
+    "trigger_sentence": "The highest queue priority is",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "Wireless clients (mode=station) will work properly if bridged to ethernet",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Which of the following Routes statuses are possible?",
+    "word": "S = Static, C = Connected, A = Active"
+  },
+  {
+    "trigger_sentence": "You have to connect to a RouterBOARD without any previous configuration. Select all possibilities to connect and do some basic configuration",
+    "word": "MAC-Winbox, Serial Connection"
+  },
+  {
+    "trigger_sentence": "What will be a valid IPv4 address for the RouterBOARD 750 for a successful connection to the device (192.168.100.70/30)?",
+    "word": "192.168.100.69/255.255.255.252"
+  },
+  {
+    "trigger_sentence": "Netinstall can be used to",
+    "word": "Reinstall software without losing licence, Install different software version (upgrade or downgrade)"
+  },
+  {
+    "trigger_sentence": "On R2, prevent all access to server 192.168.1.10 from LAN1 devices. Which rule is needed?",
+    "word": "/ip firewall filter add chain=forward src-address=192.168.0.0/24 dst-address=192.168.1.10 action=drop"
+  },
+  {
+    "trigger_sentence": "/interface wireless access-list is used for",
+    "word": "Handles a list of Client's MAC Address to permit/deny connection to AP"
+  },
+  {
+    "trigger_sentence": "To make masquerading of network 192.168.0.0/24 on Ether1, which rule should be added?",
+    "word": "/ip firewall nat add chain=srcnat out-interface=ether1 src-address=192.168.0.0/24 action=masquerade"
+  },
+  {
+    "trigger_sentence": "RouterOS DHCP server is able to send any DHCP options (specified in RFCs) to DHCP clients",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Allow multiple logins with one user name on HotSpot server. How should this be configured?",
+    "word": "Set \"Shared Users\" option at /ip hotspot user profile"
+  },
+  {
+    "trigger_sentence": "Which wireless-protocol setting(s) should be enabled on client to auto-detect 802.11a or Nv2?",
+    "word": "any, nv2-nstreme-802.11"
+  },
+  {
+    "trigger_sentence": "Using wireless connect-list it’s possible to prioritize connection to one Access Point over another by changing order of entries.",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "The total-max-limit under Simple Queues will limit the combined upload and download of the target-address.",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Two mangle rules defining different mangle marks for the same traffic type will make it have both mangle marks.",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "Where are HotSpot authorized clients shown?",
+    "word": "/ip hotspot active"
+  },
+  {
+    "trigger_sentence": "After changing Ethernet card but keeping same IP with static ARP configured, what should be done?",
+    "word": "Old static ARP entry on gateway has to be updated for the new card"
+  },
+  {
+    "trigger_sentence": "Is it possible for a client to get an IP address but no gateway after a successful DHCP request?",
+    "word": "True"
+  },
+  {
+    "trigger_sentence": "Which RouterOS packages should be installed on router for SSH server support?",
+    "word": "security"
+  },
+  {
+    "trigger_sentence": "When blocking address 159.148.20.30 from accessing internal server behind DST-NAT, how to identify it in firewall rule?",
+    "word": "src-address=159.148.20.30 dst-address=10.0.0.1"
+  },
+  {
+    "trigger_sentence": "Is it possible for Router A to use /ppp secret accounts from Router B to authenticate PPPoE customers?",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "Define a routing loop (most precise description)",
+    "word": "situation where the packet is routed through the same sequence of routers until the TTL expires"
+  },
+  {
+    "trigger_sentence": "You start a scan for wireless networks on you access point. What will happen?",
+    "word": "All connected clients will disconnect"
+  },
+  {
+    "trigger_sentence": "Is action=masquerade allowed in chain=dstnat?",
+    "word": "no"
+  },
+  {
+    "trigger_sentence": "Which route will be used to reach host 192.168.1.55?",
+    "word": "Route via gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and you suspect it is a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "What is necessary for PPPoE client configuration?",
+    "word": "Interface (on which PPPoE client is going to work)"
+  },
+  {
+    "trigger_sentence": "Mark all correct answers (Wireless access and forwarding question).",
+    "word": "Wireless access-list could allow and deny access to your AP; Default-Forwarding could be enabled for specific clients by wireless access-list"
+  },
+  {
+    "trigger_sentence": "You want to limit bandwidth for your HotSpot users. HotSpot can create dynamic queues on user login to do the speed limitations.",
+    "word": "Yes/ True"
+  },
+  {
+    "trigger_sentence": "Which gateway will be used for a packet with destination address 10.1.5.126?",
+    "word": "10.1.1.2"
+  },
+  {
+    "trigger_sentence": "Which is the default port of IP-Winbox?",
+    "word": "TCP 8291"
+  },
+  {
+    "trigger_sentence": "In case when router login password is lost, it is necessary to reinstall RouterOS or use hardware reset function.",
+    "word": "Yes/ True"
+  },
+  {
+    "trigger_sentence": "On the advanced menu of the wireless setup there is a parameter called \"Area\", it works directly with:",
+    "word": "None of these"
+  },
+  {
+    "trigger_sentence": "Is it possible that the same IP address is included in multiple address lists and still be used by these multiple address lists?",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "What protocol does ping use?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "Which firewall chain should you use to filter clients HTTP traffic going through the router?",
+    "word": "forward"
+  },
+  {
+    "trigger_sentence": "Connection marks are stored in the connection tracking table.",
+    "word": "Yes/ True"
+  },
+  {
+    "trigger_sentence": "MikroTik RouterOS commands can be run once a day by:",
+    "word": "/system scheduler"
+  },
+  {
+    "trigger_sentence": "What is term for the hardware coded address found on an interface?",
+    "word": "MAC Address"
+  },
+  {
+    "trigger_sentence": "For user in local ppp secrets/ppp profiles database, it is possible to:",
+    "word": "Allow/deny multiple logins; Allow only specific PPP services; Set max transferred bytes"
+  },
+  {
+    "trigger_sentence": "After DHCP pool exhaustion, is it possible to distribute extra IP addresses without adding another DHCP Server?",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Secure RouterOS from MNDP/CDP discovery and MAC management access.",
+    "word": "Disable discovery interfaces; Disable mac-server telnet; Disable mac-server winbox"
+  },
+  {
+    "trigger_sentence": "What does this simple queue do (image question)?",
+    "word": "Queue limits host 192.168.1.10 download data rate to one megabit per second"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "You want to use PCQ and allow 256k maximum download and upload for each client.",
+    "word": "kind=pcq pcq-limit=256000 pcq-classifier=dst-address"
+  },
+  {
+    "trigger_sentence": "To avoid looping on this network, you need to:",
+    "word": "Enable RSTP on AP1, AP2 and AP3"
+  },
+  {
+    "trigger_sentence": "HotSpot server with IP phones bypassing authentication.",
+    "word": "/ip hotspot ip-binding"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 23-bit (255.255.254.0) subnet?",
+    "word": "510"
+  },
+  {
+    "trigger_sentence": "A device is configured with IP 192.168.100.70/30. What is a valid IPv4 address for the RouterBOARD 750?",
+    "word": "192.168.100.69/255.255.255.252"
+  },
+  {
+    "trigger_sentence": "Select valid subnet masks.",
+    "word": "255.255.224.0, 255.192.0.0"
+  },
+  {
+    "trigger_sentence": "What protocol does ping use?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "Select valid MAC-address.",
+    "word": "00:00:5E:80:EE:B0"
+  },
+  {
+    "trigger_sentence": "Which computers would be able to communicate directly (without any routers involved)?",
+    "word": "10.5.5.1/24 and 10.5.5.100/25; 10.10.0.17/22 and 10.10.1.30/23"
+  },
+  {
+    "trigger_sentence": "How many IP addresses can one find in the header of an IP packet?",
+    "word": "2"
+  },
+  {
+    "trigger_sentence": "Which protocols/ports are used for SNMP?",
+    "word": "UDP 161, UDP 162"
+  },
+  {
+    "trigger_sentence": "How many usable IP addresses are there in a 20-bit subnet?",
+    "word": "4094"
+  },
+  {
+    "trigger_sentence": "After replacing a PC Ethernet card with static ARP configured on gateway, what should be done?",
+    "word": "Old static ARP entry on gateway has to be updated for the new card"
+  },
+  {
+    "trigger_sentence": "Mark the correct configuration on client PC to access the Internet.",
+    "word": "IP:192.168.2.115/24 gateway:192.168.2.1"
+  },
+  {
+    "trigger_sentence": "Which ones of the following are valid IP addresses?",
+    "word": "192.168.13.255, 10.10.14.0, 1.27.14.254"
+  },
+  {
+    "trigger_sentence": "MAC layer by OSI model is also known as",
+    "word": "Layer 2"
+  },
+  {
+    "trigger_sentence": "Which of the following IP addresses are publicly routable?",
+    "word": "11.3.10.4"
+  },
+  {
+    "trigger_sentence": "The network address is",
+    "word": "The first address of the subnet"
+  },
+  {
+    "trigger_sentence": "Select which of the following are Public IP addresses.",
+    "word": "11.63.72.21, 172.168.254.2"
+  },
+  {
+    "trigger_sentence": "Is ARP used in the IPv6 protocol?",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "What is the term for the hardware coded address found on an interface?",
+    "word": "MAC Address"
+  },
+  {
+    "trigger_sentence": "How many layers does Open Systems Interconnection model have?",
+    "word": "7"
+  },
+  {
+    "trigger_sentence": "In MikroTik RouterOS, Layer-3 communication between 2 hosts can be achieved by using an address subnet of:",
+    "word": "/30, /31"
+  },
+  {
+    "trigger_sentence": "Action=redirect is applied in",
+    "word": "chain=dstnat"
+  },
+  {
+    "trigger_sentence": "You have 802.11b/g wireless card. What frequencies are available to you?",
+    "word": "2412MHz, 2422MHz"
+  },
+  {
+    "trigger_sentence": "Mark all correct statements about /export (rsc file).",
+    "word": "Exports full configuration of the router, Exports only part of the configuration (for example /ip firewall), Exports scripts from /system script"
+  },
+  {
+    "trigger_sentence": "What wireless card can we use to achieve 100 Mbps actual wireless throughput?",
+    "word": "802.11 a/n, 802.11 a/b/g/n"
+  },
+  {
+    "trigger_sentence": "It is possible to add user-defined chains in ip firewall mangle",
+    "word": "Yes"
+  },
+  {
+    "trigger_sentence": "Choose all valid hosts address range for subnet 15.242.55.62/27",
+    "word": "15.242.55.33-15.242.55.62"
+  },
+  {
+    "trigger_sentence": "Action=redirect allows you to make",
+    "word": "Transparent DNS Cache, Enable Local Service, Transparent HTTP Proxy"
+  },
+  {
+    "trigger_sentence": "Which is correct masquerade rule for 192.168.0.0/24 network on the router with outgoing interface=ether1?",
+    "word": "/ip firewall nat add action=masquerade chain=srcnat out-interface=ether1"
+  },
+  {
+    "trigger_sentence": "What letters appear next to a route, which is automatically created by RouterOS when user adds a valid address to an active interface?",
+    "word": "D, A, C"
+  },
+  {
+    "trigger_sentence": "Mark all features that are compatible with Nstreme",
+    "word": "Encryption, WDS between a device in ap-bridge mode with a device in station-wds mode"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS in case your PCI Ethernet card is not recognized, and it’s a driver issue?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, additionally to the RouterOS system package, you will also need the following software package:",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Which are necessary sections in /queue simple to set bandwidth limitation?",
+    "word": "target-address, max-limit"
+  },
+  {
+    "trigger_sentence": "What protocol is used for Ping and Trace route?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "From which of the following locations can you obtain Winbox?",
+    "word": "Router’s webpage, mikrotik.com"
+  },
+  {
+    "trigger_sentence": "Two hosts, A and B, are connected to a broadcast LAN. Select all the answers showing pairs of IP address/mask which would allow IP connections to be established between the two hosts.",
+    "word": "A: 10.1.2.192/24 and B: 10.1.2.129/26"
+  },
+  {
+    "trigger_sentence": "Why is it useful to set a Radio Name on the radio interface?",
+    "word": "To identify a station in a list of connected clients, To identify a station in Neighbor discovery"
+  },
+  {
+    "trigger_sentence": "What kind of users are listed in the Secrets window of the PPP menu?",
+    "word": "pptp users, l2tp users, pppoe users"
+  },
+  {
+    "trigger_sentence": "Router A and B are both running as PPPoE servers on different broadcast domains of your network. Is it possible to set Router A to use \"/ppp secret\" accounts from Router B to authenticate PPPoE customers?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "MikroTik RouterOS DHCP client can receive following options",
+    "word": "IP Gateway, IP Address and Subnet"
+  },
+  {
+    "trigger_sentence": "The HotSpot feature can be used only on ethernet interfaces. You have to use a separate access point if you want to use this feature with wireless.",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "If you need to make sure that one computer in your HotSpot network can access the Internet without HotSpot authentication, which menu allows you to do this?",
+    "word": "IP bindings"
+  },
+  {
+    "trigger_sentence": "How many different priorities can be selected for queues in MikroTik RouterOS?",
+    "word": "8"
+  },
+  {
+    "trigger_sentence": "Which default route will be active?",
+    "word": "Route via gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "How long is level 1 (demo) license valid?",
+    "word": "24 hours"
+  },
+  {
+    "trigger_sentence": "If you need to make sure that one computer in your HotSpot network can access the Internet without HotSpot authentication, which menu allows you to do this?",
+    "word": "IP bindings"
+  },
+  {
+    "trigger_sentence": "Manakah fakta yang benar mengenai file backup?",
+    "word": "Mencakup seluruh konfigurasi router"
+  },
+  {
+    "trigger_sentence": "NStreme works only on 40mhz channel width",
+    "word": "false"
+  },
+  {
+    "trigger_sentence": "To make all DNS requests coming from your network to resolve on your router (regardless of the clients’ configuration), which action would you specify for the DST-NAT rule?",
+    "word": "redirect"
+  },
+  {
+    "trigger_sentence": "Two hosts, A and B, are connected to a broadcast LAN. Select all the answers showing pairs of IP address/mask which would allow IP connections to be established between the two hosts.",
+    "word": "b, d"
+  },
+  {
+    "trigger_sentence": "Connection-state=related packets are not filtered by the rules above.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "/interface wireless access-list is used for",
+    "word": "Handles a list of Client’s MAC Address to permit/deny connection to AP"
+  },
+  {
+    "trigger_sentence": "Possible actions of ip firewall filter are:",
+    "word": "tarpit, add-to-address-list, log, accept"
+  },
+  {
+    "trigger_sentence": "In case when router login password is lost, it is necessary to reinstall RouterOS or use hardware reset function.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "Which software version can be installed onto the following RouterBoard types?",
+    "word": "b, d, e"
+  },
+  {
+    "trigger_sentence": "PPP Secrets are used for",
+    "word": "L2TP clients, PPTP clients, PPPoE clients, PPP clients"
+  },
+  {
+    "trigger_sentence": "Choose all valid hosts address range for subnet 15.242.55.62/27",
+    "word": "15.242.55.33-15.242.55.62"
+  },
+  {
+    "trigger_sentence": "WPA2 Pre-Shared Key (PSK) is enabled on AP, all your clients have to use the same PSK. Only Virtual AP could be used to allow clients to connect with a different PSK.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "Router A and B are both running as PPPoE servers on different broadcast domains of your network. Is it possible to set Router A to use \"/ppp secret\" accounts from Router B to authenticate PPPoE customers?",
+    "word": "false"
+  },
+  {
+    "trigger_sentence": "Which of the following actions are available for '/ip firewall mangle' (select all valid actions)",
+    "word": "change MSS, mark connection, accept, jump, drop, mark packet"
+  },
+  {
+    "trigger_sentence": "OSPF area ID does not need to be unique within the AS.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "What configuration is added by /ip hotspot setup command? (select all that apply)",
+    "word": "/ip dhcp-server, /ip hotspot user"
+  },
+  {
+    "trigger_sentence": "Mode wireless apakah yang bisa digunakan untuk mengkonfigurasikan WDS?",
+    "word": "ap-bridge, station-wds"
+  },
+  {
+    "trigger_sentence": "Check all of the DHCP Server Options that are implemented for DHCP-Client and not Custom.",
+    "word": "DNS Server, subnet mask, gateway"
+  },
+  {
+    "trigger_sentence": "Anda akan menyimpan website yang telah dikunjungi ke dalam sebuah log dari web proxy. Manakah konfigurasi yang benar?",
+    "word": "/system logging add topics=web-proxy,!debug action=disk"
+  },
+  {
+    "trigger_sentence": "You need to set up an E1(T1) connection with PPP configured. Which License level is needed?",
+    "word": "Level 4"
+  },
+  {
+    "trigger_sentence": "Mark the correct configuration on client PC to access to the Internet",
+    "word": "IP:192.168.2.115/24 gateway: 192.168.2.1"
+  },
+  {
+    "trigger_sentence": "Mark queue type that uses fairness principle between sub-queues, allows users to choose classifier for sub-queues, and apply a limit to each sub-queue",
+    "word": "PCQ"
+  },
+  {
+    "trigger_sentence": "How many different priorities can be selected for queues in MikroTik RouterOS?",
+    "word": "8"
+  },
+  {
+    "trigger_sentence": "An IP address pool can contain addresses from more than one subnet.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "Two hosts A and B are connected to a broadcast LAN. Select all pairs of IP address/mask which allow IP connections between the two hosts.",
+    "word": "10.1.2.192/24 and 10.1.2.129/26; 10.1.2.66/25 and 10.1.2.109/26; 10.2.1.0/23 and 10.2.0.1/22"
+  },
+  {
+    "trigger_sentence": "Which features are removed when advanced-tools package is uninstalled?",
+    "word": "ip-scan; netwatch; bandwidth-test"
+  },
+  {
+    "trigger_sentence": "Rate flapping can be avoided by",
+    "word": "Reduce supported rates; Set basic rates to only one data rate like 24 Mbps"
+  },
+  {
+    "trigger_sentence": "Mark possible connection states in the connection tracking table",
+    "word": "Related; Invalid; Established; New"
+  },
+  {
+    "trigger_sentence": "Can you manually add drivers to RouterOS if a PCI Ethernet card is not recognized?",
+    "word": "No"
+  },
+  {
+    "trigger_sentence": "If queues C1 and D2 will not require any traffic, how will the total available traffic be distributed in the worst case scenario?",
+    "word": "queue C2 will get 3M, C3 3M, D1 4M"
+  },
+  {
+    "trigger_sentence": "What can be said about Web access (port 80) from client 192.168.10.2 connected to ether3?",
+    "word": "The customer will access the Web using the gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "For static routing functionality, in addition to the RouterOS system package, which software package is required?",
+    "word": "none"
+  },
+  {
+    "trigger_sentence": "Which option should be used to prevent access from one specific address to the router web interface?",
+    "word": "Firewall Filter Chain Input"
+  },
+  {
+    "trigger_sentence": "Which MikroTik RouterOS version should be used for IEEE 802.11n support?",
+    "word": "Versions 4.x; Versions 5.x"
+  },
+  {
+    "trigger_sentence": "A station can connect to AP if both use different country regulations but the chosen frequency is allowed in both countries.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "How long is level 1 (demo) license valid?",
+    "word": "24 hours"
+  },
+  {
+    "trigger_sentence": "Can Router A use /ppp secret accounts from Router B to authenticate PPPoE customers?",
+    "word": "False"
+  },
+  {
+    "trigger_sentence": "You need to save visited web-pages to memory logs from web-proxy. Which is the correct configuration?",
+    "word": "/system logging add topics=web-proxy,!debug action=memory"
+  },
+  {
+    "trigger_sentence": "By default info, error and warning messages are logged into memory. You can add logging of visited web-pages and other topics.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "Netinstall can be used to",
+    "word": "Install different software version (upgrade or downgrade); Reinstall software without losing licence"
+  },
+  {
+    "trigger_sentence": "Which options are necessary to use the HotSpot Universal Client feature?",
+    "word": "arp=enabled on the HotSpot interface; address-pool configuration in /ip hotspot and /ip hotspot user profile"
+  },
+  {
+    "trigger_sentence": "What is the correct action in a NAT rule to hide a private network when communicating to the outside world?",
+    "word": "masquerade"
+  },
+  {
+    "trigger_sentence": "Mark all features that are compatible with Nstreme",
+    "word": "WDS between ap-bridge and station-wds; WDS between station-wds and station-wds"
+  },
+  {
+    "trigger_sentence": "PPP Secrets are used for",
+    "word": "L2TP clients; PPPoE clients; PPTP clients; PPP clients"
+  },
+  {
+    "trigger_sentence": "What is the term for the hardware coded address found on an interface?",
+    "word": "MAC Address"
+  },
+  {
+    "trigger_sentence": "Which default route will be active given distances 10 via 1.1.1.1 and 5 via 2.2.2.2?",
+    "word": "Route via gateway 2.2.2.2"
+  },
+  {
+    "trigger_sentence": "How to allow multiple logins with one username on a HotSpot server?",
+    "word": "Set Shared Users option at /ip hotspot user profile"
+  },
+  {
+    "trigger_sentence": "To assign specific traffic to a route, each packet can have only one routing mark.",
+    "word": "true"
+  },
+  {
+    "trigger_sentence": "What can be used as target-address in a simple queue?",
+    "word": "client’s address"
+  },
+  {
+    "trigger_sentence": "How long is an IPv6 address?",
+    "word": "128 bits"
+  },
+  {
+    "trigger_sentence": "What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet?",
+    "word": "PAT"
+  },
+  {
+    "trigger_sentence": "What are the two main types of access control lists (ACLs)?",
+    "word": "1 and 3"
+  },
+  {
+    "trigger_sentence": "What command is used to create a backup configuration?",
+    "word": "copy running-config startup-config"
+  },
+  {
+    "trigger_sentence": "You have 10 users plugged into a hub running 10Mbps half-duplex. How much bandwidth does each host have to the server?",
+    "word": "1 Mbps"
+  },
+  {
+    "trigger_sentence": "Which WLAN IEEE specification allows up to 54Mbps at 2.4GHz?",
+    "word": "G"
+  },
+  {
+    "trigger_sentence": "Which of the following is the valid host range for the subnet on which the IP address 192.168.168.188 255.255.255.192 resides?",
+    "word": "192.168.168.129-190"
+  },
+  {
+    "trigger_sentence": "To back up an IOS, what command will you use?",
+    "word": "copy flash tftp"
+  },
+  {
+    "trigger_sentence": "What protocol does PPP use to identify the Network layer protocol?",
+    "word": "NCP"
+  },
+  {
+    "trigger_sentence": "Which of the following commands will allow you to set your Telnet password on a Cisco router?",
+    "word": "line vty 0 4"
+  },
+  {
+    "trigger_sentence": "Which protocol does DHCP use at the Transport layer?",
+    "word": "UDP"
+  },
+  {
+    "trigger_sentence": "Which command is used to determine if an IP access list is enabled on a particular interface?",
+    "word": "show ip interface"
+  },
+  {
+    "trigger_sentence": "Where is a hub specified in the OSI model?",
+    "word": "Physical layer"
+  },
+  {
+    "trigger_sentence": "What does the passive command provide to dynamic routing protocols?",
+    "word": "Stops an interface from sending periodic dynamic updates but not from receiving updates."
+  },
+  {
+    "trigger_sentence": "Which protocol is used to send a destination network unknown message back to originating hosts?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "How often are BPDUs sent from a layer 2 device?",
+    "word": "Every 2 seconds"
+  },
+  {
+    "trigger_sentence": "How many broadcast domains are created when you segment a network with a 12-port switch?",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "What does the command routerA(config)#line cons 0 allow you to perform next?",
+    "word": "Set your console password."
+  },
+  {
+    "trigger_sentence": "Which router command allows you to view the entire contents of all access lists?",
+    "word": "show access-lists"
+  },
+  {
+    "trigger_sentence": "Which class of IP address has the most host addresses available by default?",
+    "word": "A"
+  },
+  {
+    "trigger_sentence": "In a network with dozens of switches, how many root bridges would you have?",
+    "word": "1"
+  },
+  {
+    "trigger_sentence": "What PPP protocol provides dynamic addressing, authentication, and multilink?",
+    "word": "NCP"
+  },
+  {
+    "trigger_sentence": "What is a stub network?",
+    "word": "A network that has only one entry and exit point."
+  },
+  {
+    "trigger_sentence": "If your router is facilitating a CSU/DSU, which command do you need to use to provide the router with a 64000bps serial link?",
+    "word": "RouterA(config-if)#clock rate 64000"
+  },
+  {
+    "trigger_sentence": "Which one of the following is true regarding VLANs?",
+    "word": "VTP is used to send VLAN information to switches in a configured VTP domain."
+  },
+  {
+    "trigger_sentence": "What does a VLAN do?",
+    "word": "Breaks up broadcast domains in a layer 2 switch internetwork."
+  },
+  {
+    "trigger_sentence": "What is the main reason the OSI model was created?",
+    "word": "So different networks could communicate."
+  },
+  {
+    "trigger_sentence": "How many collision domains are created when you segment a network with a 12-port switch?",
+    "word": "12"
+  },
+  {
+    "trigger_sentence": "What command will display the line, protocol, DLCI, and LMI information of an interface?",
+    "word": "show frame-relay pvc"
+  },
+  {
+    "trigger_sentence": "Which protocol does Ping use?",
+    "word": "ICMP"
+  },
+  {
+    "trigger_sentence": "Which command is used to upgrade an IOS on a Cisco router?",
+    "word": "copy tftp flash"
+  },
+  {
+    "trigger_sentence": "If you wanted to delete the configuration stored in NVRAM, what would you type?",
+    "word": "erase startup"
+  },
+  {
+    "trigger_sentence": "What protocols are used to configure trunking on a switch?",
+    "word": "3 and 4"
+  },
+  {
+    "trigger_sentence": "Which of the following services use TCP?",
+    "word": "2, 3 and 5"
+  },
+  {
+    "trigger_sentence": "What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?",
+    "word": "Host-to-Host"
+  },
+  {
+    "trigger_sentence": "Which of the following describe the DHCP Discover message?",
+    "word": "1 and 2"
+  },
+  {
+    "trigger_sentence": "You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use?",
+    "word": "DHCP"
+  },
+  {
+    "trigger_sentence": "Which of the following is private IP address?",
+    "word": "192.168.24.43"
+  },
+  {
+    "trigger_sentence": "Which of the following allows a router to respond to an ARP request that is intended for a remote host?",
+    "word": "Proxy ARP"
+  },
+  {
+    "trigger_sentence": "The DoD model (TCP/IP stack) layer equivalent to the Network layer of the OSI model?",
+    "word": "Internet"
+  },
+  {
+    "trigger_sentence": "Which of the following services use UDP?",
+    "word": "1, 3 and 6"
+  },
+  {
+    "trigger_sentence": "Which class of IP address provides a maximum of only 254 host addresses per network ID?",
+    "word": "Class C"
+  },
+  {
+    "trigger_sentence": "If you use either Telnet or FTP, which is the highest layer you are using to transmit data?",
+    "word": "Application"
+  },
+  {
+    "trigger_sentence": "What are the decimal and hexadecimal equivalents of the binary number 10011101?",
+    "word": "157, 0x9D"
+  },
+  {
+    "trigger_sentence": "Which statements are true regarding ICMP packets? (Set 1)",
+    "word": "3 and 4"
+  },
+  {
+    "trigger_sentence": "Which of the following are layers in the TCP/IP model?",
+    "word": "1, 3 and 4"
+  },
+  {
+    "trigger_sentence": "Which layer 4 protocol is used for a Telnet connection?",
+    "word": "TCP"
+  },
+  {
+    "trigger_sentence": "Which statements are true regarding ICMP packets? (Set 2)",
+    "word": "2 and 3"
+  },
+  {
+    "trigger_sentence": "Which of the following are TCP/IP protocols used at the Application layer of the OSI model?",
+    "word": "3, 4 and 5"
+  },
+  {
+    "trigger_sentence": "What protocol is used to find the hardware address of a local device?",
+    "word": "ARP"
+  },
+  {
+    "trigger_sentence": "Which of the following protocols uses both TCP and UDP?",
+    "word": "DNS"
+  },
+  {
+    "trigger_sentence": "What is the address range of a Class B network address in binary?",
+    "word": "10xxxxxx"
+  },
+  {
+    "trigger_sentence": "A network ready device is directly connected to a MikroTik RouterBOARD with a correct U.T.P. RJ45 functioning cable. The device is configured with an IPv4 address of 192.168.100.70 using a subnet mask of 255.255.255.252. What will be a valid IPv4 address for the RouterBOARD 750 for a successful connection to the device?",
+    "word": "192.168.100.69/255.255.255.252"
+  },
+  {
+    "trigger_sentence": "Select valid subnet masks:",
+    "word": "255.192.0.0, 255.255.224.0"
+  },
+  {
+    "trigger_sentence": "Which of the following protocols / ports are used for SNMP (Simple Network Management Protocol)?",
+    "word": "UDP 161, UDP 162"
+  }
+]
