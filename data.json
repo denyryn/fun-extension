@@ -9,7 +9,7 @@
   },
   {
     "trigger_sentence": "Which computers would be able to communicate directly (without any routers involved)?",
-    "word": "10.10.0.17/22 and 10.10.1.30/23"
+    "word": "10.5.5.1/24 and 10.5.5.100/25; 10.10.0.17/22 and 10.10.1.30/23"
   },
   {
     "trigger_sentence": "How many IP addresses can one find in the header of an IP packet?",
@@ -32,7 +32,7 @@
     "word": "False"
   },
   {
-    "trigger_sentence": "Which of the following protocols/ports are used for SNMP?",
+    "trigger_sentence": "Which of the following protocols / port s are used for SNMP. (Simple Network Managemnt Protocol)",
     "word": "UDP 161, UDP 162"
   },
   {
@@ -314,6 +314,10 @@
   },
   {
     "trigger_sentence": "Select which of the following are Public IP addresses",
+    "word": "172.168.254.2, 11.63.72.21"
+  },
+  {
+    "trigger_sentence": "Select which of the following are 'Public IP addresses'",
     "word": "172.168.254.2, 11.63.72.21"
   },
   {
@@ -1650,11 +1654,7 @@
   },
   {
     "trigger_sentence": "The 'check-gateway' option is enabled for one route. Select all statements that are true:",
-    "word": "Gateway is checked every 10 seconds and after 2 failures, the gateway is considered unreacheable"
-  },
-  {
-    "trigger_sentence": "The 'check-gateway' option is enabled for one route. Select all statements that are true:",
-    "word": "In case of failure of the gateway, routes pointing to that gateway will become inactive"
+    "word": "Gateway is checked every 10 seconds and after 2 failures, the gateway is considered unreacheable, In case of failure of the gateway, routes pointing to that gateway will become inactive"
   },
   {
     "trigger_sentence": "Simple Queue number 0 defines 2M for upload and download for target IP 10.10.0.33. Simple Queue number 1 defines 4M for upload and download for target IP 10.10.0.33. The maximum bandwidth that the client 10.10.0.33 is be able to obtain is:",
@@ -1686,11 +1686,7 @@
   },
   {
     "trigger_sentence": "Possible actions of ip firewall filter are:",
-    "word": "log"
-  },
-  {
-    "trigger_sentence": "Possible actions of ip firewall filter are:",
-    "word": "tarpit"
+    "word": "log, tarpit"
   },
   {
     "trigger_sentence": "Which port does SSTP use by default?",
@@ -1706,11 +1702,7 @@
   },
   {
     "trigger_sentence": "Choose the correct PCQ argument values to allow 256kbps maximum download and upload for each client:",
-    "word": "kind=pcq pcq-rate=256000 pcq-classifier=dst-address"
-  },
-  {
-    "trigger_sentence": "Choose the correct PCQ argument values to allow 256kbps maximum download and upload for each client:",
-    "word": "kind=pcq pcq-rate=256000 pcq-classifier=src-address"
+    "word": "kind=pcq pcq-rate=256000 pcq-classifier=dst-address, kind=pcq pcq-rate=256000 pcq-classifier=src-address"
   },
   {
     "trigger_sentence": "How long is level 1 (free) license valid?",
@@ -1730,15 +1722,7 @@
   },
   {
     "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
-    "word": "RADIUS shared secret"
-  },
-  {
-    "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
-    "word": "Hotspot User"
-  },
-  {
-    "trigger_sentence": "In WinBox, Hide Passwords unchecked shows passwords for the following",
-    "word": "PPP secrets"
+    "word": "RADIUS shared secret, Hotspot User, PPP secrets"
   },
   {
     "trigger_sentence": "On RouterOS v7, to block communications between wireless clients connected to the same access point interface, you should set",
@@ -1750,19 +1734,11 @@
   },
   {
     "trigger_sentence": "It is required to set up a web server residing on a private subnet in a LAN to be accessible from the public Internet. Only the web server port should be accessible from the public. Which configuration steps must be met:",
-    "word": "Connection tracking must be enabled on the router"
-  },
-  {
-    "trigger_sentence": "It is required to set up a web server residing on a private subnet in a LAN to be accessible from the public Internet. Only the web server port should be accessible from the public. Which configuration steps must be met:",
-    "word": "In IP firewall NAT there should be a dst-nat rule between the public IP address of the web server and the private IP of the web server"
+    "word": "Connection tracking must be enabled on the router, In IP firewall NAT there should be a dst-nat rule between the public IP address of the web server and the private IP of the web server"
   },
   {
     "trigger_sentence": "What does the firewall action \"Redirect\" do?",
-    "word": "Redirects a packet to a specified port on the router"
-  },
-  {
-    "trigger_sentence": "What does the firewall action \"Redirect\" do?",
-    "word": "Redirects a packet to the router"
+    "word": "Redirects a packet to a specified port on the router, Redirects a packet to the router"
   },
   {
     "trigger_sentence": "What is the meaning of the status letter \"R\" on a PPPoE client interface in RouterOS Interfaces menu?",
